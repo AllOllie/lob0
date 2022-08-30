@@ -11,5 +11,6 @@ public class App extends Application{
     {
         System.out.println("Hello");
         launch(args);
+        System.out.println("there");
     }
 }
