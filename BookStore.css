@@ -1,0 +1,55 @@
+/**
+* ! changing defualt
+**/
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+/**
+* ! Body style
+**/
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+/**
+* ! navbar style
+**/
+.navbar{
+    display: flex;
+    font-display: row;
+    justify-content: space-between;
+    /**
+    background-color: #e5e5e5;
+    **/
+    background-color: darkorchid;
+    padding: 25px 60px;
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+}
+.store{
+    color: white;
+}
+.cart{
+   background-color: darkorchid;
+   padding: 0px;
+   font-size: 0px;
+   border-radius: 4px;
+
+}
+.cartAmount{
+    position: relative;
+    top: -35px;
+    right: -5px;
+    /*
+    border-radius: 5px;
+    */
+    font-size: 32px;
+    /*background-color: white;*/
+    color: red;
+    font-weight: 300; 
+}
