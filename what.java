@@ -1,5 +1,7 @@
-package 3331.lab0;
 
-public class what {
-    
+public class what 
+{
+    public static void main(String args[]){
+    System.out.println("hey");
+    }
 }
